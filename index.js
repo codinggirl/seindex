@@ -105,6 +105,7 @@ async function main() {
         d.getElementById('shang_zheng').value = ${data['上证指数（截取）']}
         d.getElementById('shen_zheng').value = ${data['深证成指']}
         d.getElementById('chuang_ye').value = ${data['创业板指']}
+        d.getElementById('number').value = '${data['幸运数字']}'
         `
         let jsonStr = await getJsonString()
         let html = `
